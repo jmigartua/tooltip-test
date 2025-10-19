@@ -1,0 +1,15 @@
+title: Tooltip-test
+author: Josu M. Igartua
+version: 1.0.0
+quarto-required: ">=1.2.0"
+contributes:
+  shortcodes:
+    - tooltip-test.lua
+  formats:
+    html:
+      include-in-header:
+        - tippy-header.html
+      include-after-body:
+        - tippy-init.js
+      css:
+        - tooltip-styles.css
